@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://skippy:ywhlaickDpHwOgrV@hrsurveydata-1jdfv.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://skippy:ywhlaickDpHwOgrV@hrsurveydata-1jdfv.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoekn"
 }
