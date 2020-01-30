@@ -6,6 +6,15 @@ const ProfileSchema = new mongoose.Schema({
     ref: "user"
   },
 
+  status: {
+    type: String,
+    required: true
+  },
+  skills: {
+    type: [String],
+    required: true
+  },
+
   questions: [
     {
       q_id: {
@@ -29,6 +38,14 @@ const ProfileSchema = new mongoose.Schema({
 
   campaigns: [
     {
+      campaign_id: {
+        type: String,
+        required: true
+      },
+      name: {
+        type: String,
+        required: true
+      },
       q_ids: [
         {
           type: String,
